@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import ChevronIcon from './ChevronIcon';
+import { ChevronDown } from 'react-bootstrap-icons';
 
 import './FAQ.scss';
 
@@ -25,7 +25,7 @@ const FAQ = ({ faq }) => {
               >
                 <h3 className="faq__question-title">{item.title}</h3>
                 <span className={`faq__icon ${openIndex === index ? 'opened' : ''}`}>
-                  <ChevronIcon />
+                  <ChevronDown size={20} />
                 </span>
               </div>
               <div className="faq__answer">

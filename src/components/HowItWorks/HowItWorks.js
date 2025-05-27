@@ -35,7 +35,13 @@ const HowItWorks = ({ howItWorks }) => {
                 <h3 className="how-it-works__content-title">
                   {item.id}. {item.title}
                 </h3>
-                <p className="how-it-works__content-subtitle">{item.subtitle}</p>
+                {item.options && (
+                  <ul className="how-it-works__content-options">
+                    {item.options.map((option) => (
+                      <li key={option}>{option}</li>
+                    ))}
+                  </ul>
+                )}
               </div>
             ))}
           </div>

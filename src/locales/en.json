@@ -55,26 +55,41 @@
       {
         "id": "1",
         "image": "screen-1.png",
-        "title": "Register or Log In",
-        "subtitle": "Easy sign-up or log in via social media — whatever is most convenient for you."
+        "title": "Income and Expense Tracking",
+        "options": [
+          "Manual transaction entry",
+          "Classification by categories and projects",
+          "Advanced filters and search"
+        ]
       },
       {
         "id": "2",
         "image": "screen-2.png",
-        "title": "Enter Your Company Info",
-        "subtitle": "Add your business name and contact information — just once."
+        "title": "Financial Analytics",
+        "options": [
+          "Dashboards with key metrics",
+          "Charts for profit, expenses, and trends",
+          "Reports by period, category, and counterparties"
+        ]
       },
       {
         "id": "3",
         "image": "screen-3.png",
-        "title": "Add Your Client's Details",
-        "subtitle": "Fill in client data, describe the service, and set the price."
+        "title": "Automatic Invoice Sending",
+        "options": [
+          "Create and send invoices to client's email",
+          "Send payment reminders",
+          "Track accounts payable and receivable"
+        ]
       },
       {
         "id": "4",
         "image": "screen-4.png",
-        "title": "Get Your Invoice",
-        "subtitle": "Click a button and your invoice is ready! Download it as a PDF or send it directly to your client by email."
+        "title": "Mobile Version",
+        "options": [
+          "Adapted for smartphones and tablets",
+          "Convenient on-the-go management"
+        ]
       }
     ]
   },
