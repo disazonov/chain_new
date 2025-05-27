@@ -1,0 +1,96 @@
+.wrapper-main {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+._container {
+  max-width: 1390px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Lato-Bold';
+  font-size: 2.875rem;
+  line-height: 130%;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 2.25rem;
+    margin-bottom: 25px;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 1.625rem;
+  }
+}
+
+h2 {
+  font-family: 'Lato-Bold';
+  font-size: 1.875rem;
+  line-height: 130%;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 1.625rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  font-family: 'Lato-Bold';
+  font-size: 1.25rem;
+  line-height: 130%;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 1.25rem;
+  }
+}
+
+h4 {
+  font-family: 'Lato-Bold';
+  font-size: 1.125rem;
+  line-height: 130%;
+  margin-bottom: 15px;
+
+  @media screen and (max-width: 991px) {
+    font-size: 0.875rem;
+  }
+}
+
+p {
+  font-family: 'Lato-Regular';
+  font-size: 0.875rem;
+  line-height: 130%;
+  margin-bottom: 15px;
+}
+
+a {
+  font-family: 'Lato-Regular';
+  font-size: 0.875rem;
+  line-height: 130%;
+}
+
+.btn {
+  background: #2d41bc;
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Lato-Regular';
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #2a3ba4;
+  }
+}

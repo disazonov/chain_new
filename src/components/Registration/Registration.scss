@@ -1,0 +1,31 @@
+.register__container {
+  max-width: 1025px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.register {
+  padding: 33px 0;
+  background: url('./img/reg-bg.jpg') no-repeat center center / cover;
+}
+
+.register__link {
+  color: #ffffff;
+  font-size: 1.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  & > * {
+    margin: 0;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    height: 15px;
+    width: 10px;
+    background: url('./img/arrow-rightWhite.svg') no-repeat;
+  }
+}

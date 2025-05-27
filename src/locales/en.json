@@ -1,0 +1,210 @@
+{
+  "header": {
+    "sign_in": "Sign In",
+    "sign_up": "Sign Up"
+  },
+  "hero": {
+    "title": "Manage your finances — easily, accurately, and transparently",
+    "subtitle": "One service for income and expense tracking, planning, and analysis. No Excel or accounting hassle.",
+    "button_text": "Create Account"
+  },
+  "common": {
+    "title": "Why Choose Us?",
+    "items": [
+      {
+        "id": "1",
+        "icon": "invoice-clock",
+        "title": "Save Time on Data Entry",
+        "subtitle": "We automate the process of creating and sending invoices so you don't have to enter everything manually. Just select the client and the service — we'll handle the rest."
+      },
+      {
+        "id": "2",
+        "icon": "invoice-gear",
+        "title": "Flexibility and Customization",
+        "subtitle": "Our platform allows you to tailor invoices to your needs: add your logo, define payment terms. We've taken care of every detail!"
+      },
+      {
+        "id": "3",
+        "icon": "invoice-briefcase",
+        "title": "Legal Accuracy",
+        "subtitle": "Our invoices meet all tax authority requirements. No need to worry about formatting or correctness — everything will be perfect."
+      },
+      {
+        "id": "4",
+        "icon": "invoice-speed",
+        "title": "Fast and Simple",
+        "subtitle": "Create invoices in just a few clicks. An intuitive interface makes the process quick and easy — it only takes a few minutes."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How Does It Work?",
+    "items": [
+      {
+        "id": "1",
+        "image": "screen-1.png",
+        "title": "Register or Log In",
+        "subtitle": "Easy sign-up or log in via social media — whatever is most convenient for you."
+      },
+      {
+        "id": "2",
+        "image": "screen-2.png",
+        "title": "Enter Your Company Info",
+        "subtitle": "Add your business name and contact information — just once."
+      },
+      {
+        "id": "3",
+        "image": "screen-3.png",
+        "title": "Add Your Client's Details",
+        "subtitle": "Fill in client data, describe the service, and set the price."
+      },
+      {
+        "id": "4",
+        "image": "screen-4.png",
+        "title": "Get Your Invoice",
+        "subtitle": "Click a button and your invoice is ready! Download it as a PDF or send it directly to your client by email."
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "id": "1",
+      "title": "The service really helped get things in order",
+      "review": "The service really helped get things in order. I stopped losing money on unaccounted expenses. Plus, it conveniently shows analytics",
+      "name": "Michael, online store owner"
+    },
+    {
+      "id": "2",
+      "title": "I used to keep everything in spreadsheets",
+      "review": "I used to keep everything in spreadsheets — got confused, forgot things, lost receipts. With this service, everything is clear: I can see how much I earned, spent, and where I can cut costs",
+      "name": "Maria, freelance digital marketer"
+    },
+    {
+      "id": "3",
+      "title": "Really helped",
+      "review": "Really helped when I started developing my personal brand. All income and expenses are structured, easy to track",
+      "name": "Maxim, HR specialist"
+    },
+    {
+      "id": "4",
+      "title": "Been using it for half a year",
+      "review": "Been using it for half a year for sending invoices — everything is convenient. Notifications, planning, reports — everything is clear.",
+      "name": "Elena, financial manager"
+    },
+    {
+      "id": "5",
+      "title": "Working with multiple PEs",
+      "review": "Working with multiple private entrepreneurs, and thanks to the service I can track who, when, and how much. Everything is at hand and nothing gets lost.",
+      "name": "Alexandra, accountant"
+    }
+  ],
+  "getStartedNow": {
+    "title": "Get Started Now!",
+    "text": "Registration takes just a couple of minutes. Use our service for fast, simple, and professional invoicing.",
+    "text_2": "Perfect for freelancers, small and medium businesses, self-employed professionals, and agencies.",
+    "text_3": "No credit card required. Full access for 30 days.",
+    "button_text": "Try FREE"
+  },
+  "delight": {
+    "title": "Plans to make your plans happen.",
+    "plans": [
+      {
+        "title": "Starter Plan",
+        "description": "Just starting your business or looking for the basics? This is the place.",
+        "features": [
+          "Create 20 estimates, invoices, bills, and bookkeeping records",
+          "Manage cash flow and customers in one dashboard"
+        ],
+        "price": "Try FREE"
+      },
+      {
+        "title": "Business Lite",
+        "description": "Beginner entrepreneur and freelancers",
+        "features": [
+          "Custom design of invoices",
+          "Create unlimited estimates, invoices, bills, and bookkeeping records",
+          "Manage cash flow and customers in one dashboard",
+          "Manage cash flow in all currencies",
+          "Debt control (accounts payable and receivable)"
+        ],
+        "price": "4.99 USD",
+        "label": "Hit"
+      },
+      {
+        "title": "Business Pro",
+        "description": "Small and medium business",
+        "features": [
+          "Custom design of invoices",
+          "Create unlimited estimates, invoices, bills, and bookkeeping records",
+          "Manage cash flow and customers in one dashboard",
+          "Manage cash flow in all currencies",
+          "Debt control (accounts payable and receivable)",
+          "Cash Flow and P&L Reports",
+          "Projects' profitability reports"
+        ],
+        "price": "11.49 USD"
+      }
+    ],
+    "button_text": "Try",
+    "available": "Available"
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "id": "1",
+        "title": "Is it safe to store financial information here?",
+        "text": "Yes. All data is encrypted and stored on secure servers with regular backups."
+      },
+      {
+        "id": "2",
+        "title": "Is there a free version?",
+        "text": "Yes, a trial period is available. There are also plans with extended features."
+      },
+      {
+        "id": "3",
+        "title": "Can I manage multiple projects at once?",
+        "text": "Yes, you can create multiple companies (projects) and track finances for each — perfect for agencies and diversified businesses."
+      },
+      {
+        "id": "4",
+        "title": "Do I need to install anything?",
+        "text": "No. The service works entirely online — in a browser on any device."
+      },
+      {
+        "id": "5",
+        "title": "What is a financial management service?",
+        "text": "It's an online platform that helps you track income and expenses, plan budgets, send client invoices, control cash flow, and make informed decisions."
+      },
+      {
+        "id": "6",
+        "title": "How do I remind a client about payment?",
+        "text": "The service automatically sends reminders based on your set deadlines. You can also send a message manually."
+      },
+      {
+        "id": "7",
+        "title": "Is the service suitable for working with legal entities?",
+        "text": "Yes, you can issue invoices and manage financial relationships with both individuals and companies, including all required details."
+      },
+      {
+        "id": "8",
+        "title": "How is your service different from regular Excel accounting?",
+        "text": "Excel is manual and error-prone. Our service automates data collection, processing, and visualization, updates in real time, and provides ready-made reports."
+      },
+      {
+        "id": "9",
+        "title": "Who can use the service?",
+        "text": "Business owners, CFOs, startups, analysts, investors, as well as freelancers and sole proprietors looking to better understand their finances."
+      }
+    ]
+  },
+  "register": {
+    "title": "Register"
+  },
+  "footer": {
+    "address": "01-103, Ukraine, Kyiv, M. Boichuka St, 29/4",
+    "rights": "All rights reserved",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy"
+  }
+}
