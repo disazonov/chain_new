@@ -1,19 +1,23 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { GrDocumentUser, GrDocumentTime, GrFormClock, GrPerformance } from 'react-icons/gr';
-import { Clock, Speedometer2, PersonGear, Briefcase } from 'react-bootstrap-icons';
+import { Clock, PersonGear, LayoutTextWindowReverse, Toggles2, ShieldCheck, UniversalAccessCircle } from 'react-bootstrap-icons';
+import useScreen from '../hooks/useScreen';
 
 import './Common.scss';
 
-const iconMap = {
-  'invoice-clock': <Clock size={60} color="#7300b9" />,
-  'invoice-gear': <PersonGear size={60} color="#7300b9" />,
-  'invoice-briefcase': <Briefcase size={60} color="#7300b9" />,
-  'invoice-speed': <Speedometer2 size={60} color="#7300b9" />
-};
-
 const Common = ({ common }) => {
   const { title, items } = common;
+  const { isMobile } = useScreen();
+  const iconSize = isMobile() ? 40 : 60;
+
+  const iconMap = {
+    'invoice-layout': <LayoutTextWindowReverse size={iconSize} color="#7300b9" />,
+    'invoice-gear': <PersonGear size={iconSize} color="#7300b9" />,
+    'invoice-flexible': <Toggles2 size={iconSize} color="#7300b9" />,
+    'invoice-shield': <ShieldCheck size={iconSize} color="#7300b9" />,
+    'invoice-clock': <Clock size={iconSize} color="#7300b9" />,
+    'invoice-accessibility': <UniversalAccessCircle size={iconSize} color="#7300b9" />,
+  };
 
   return (
     <section className="common _container">

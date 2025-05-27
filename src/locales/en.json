@@ -13,27 +13,39 @@
     "items": [
       {
         "id": "1",
-        "icon": "invoice-clock",
-        "title": "Save Time on Data Entry",
-        "subtitle": "We automate the process of creating and sending invoices so you don't have to enter everything manually. Just select the client and the service — we'll handle the rest."
+        "icon": "invoice-layout",
+        "title": "User-Friendly Interface",
+        "subtitle": "Intuitive design allows you to start working quickly without any training."
       },
       {
         "id": "2",
         "icon": "invoice-gear",
-        "title": "Flexibility and Customization",
-        "subtitle": "Our platform allows you to tailor invoices to your needs: add your logo, define payment terms. We've taken care of every detail!"
+        "title": "Full Control",
+        "subtitle": "Track project tasks, time, and get real-time reports instantly."
       },
       {
         "id": "3",
-        "icon": "invoice-briefcase",
-        "title": "Legal Accuracy",
-        "subtitle": "Our invoices meet all tax authority requirements. No need to worry about formatting or correctness — everything will be perfect."
+        "icon": "invoice-flexible",
+        "title": "Flexibility",
+        "subtitle": "Customize the application to meet your business's specific needs."
       },
       {
         "id": "4",
-        "icon": "invoice-speed",
-        "title": "Fast and Simple",
-        "subtitle": "Create invoices in just a few clicks. An intuitive interface makes the process quick and easy — it only takes a few minutes."
+        "icon": "invoice-shield",
+        "title": "Security",
+        "subtitle": "All data is protected using the most modern technologies."
+      },
+      {
+        "id": "5",
+        "icon": "invoice-clock",
+        "title": "Time Saving",
+        "subtitle": "Automation eliminates routine tasks. Forgotten payments, cash gaps, and Excel are things of the past."
+      },
+      {
+        "id": "6",
+        "icon": "invoice-accessibility",
+        "title": "Simplicity and Accessibility",
+        "subtitle": "No need to be an accountant for everything to work smoothly."
       }
     ]
   },
