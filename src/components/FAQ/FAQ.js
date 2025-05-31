@@ -1,41 +1,23 @@
-import React, { useState } from 'react';
+import React, { Children } from 'react';
 import PropTypes from 'prop-types';
-import { ChevronDown } from 'react-bootstrap-icons';
+import { Collapse } from 'antd';
 
 import './FAQ.scss';
 
 const FAQ = ({ faq }) => {
-  const { items } = faq;
-  const [openIndex, setOpenIndex] = useState(null);
+  const { title, items } = faq;
 
-  const handleItemClick = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+  const accordionItems = items.map(item => ({
+    key: item.id,
+    label: <h3 className='faq__question'>{item.title}</h3>,
+    children: <p className='faq__answer'>{item.text}</p>
+  }));
 
   return (
     <section className="faq">
       <div className="faq__container _container">
-        <h1 className="faq__title">{faq.title}</h1>
-        <div className="faq__items">
-          {items.map((item, index) => (
-            <div key={index} className={`faq__item ${openIndex === index ? 'opened' : ''}`}>
-              <div
-                className={`faq__question ${openIndex === index ? 'opened' : ''}`}
-                onClick={() => handleItemClick(index)}
-              >
-                <h3 className="faq__question-title">{item.title}</h3>
-                <span className={`faq__icon ${openIndex === index ? 'opened' : ''}`}>
-                  <ChevronDown size={20} />
-                </span>
-              </div>
-              <div className="faq__answer">
-                <div className="faq__answer-content">
-                  <p>{item.text}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        <h1 className="faq__title">{title}</h1>
+        <Collapse bordered={false}  expandIconPosition='end' ghost className="faq__accordion" items={accordionItems} />
       </div>
     </section>
   );
